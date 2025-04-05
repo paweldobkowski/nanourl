@@ -7,7 +7,7 @@ class NanoURL(models.Model):
     """
 
     nano_id = models.CharField(max_length=10, primary_key=True)
-    original_url = models.URLField()
+    original_url = models.URLField(max_length=2048)
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self) -> str:
