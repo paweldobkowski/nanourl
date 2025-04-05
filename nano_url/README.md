@@ -49,3 +49,8 @@ Easy to implement a redirect to make Nano URLs work.
 5) pip install -r requirements.txt
 6) python manage.py migrate
 7) python manage.py runserver
+
+---
+
+# 💼 Author
+Made by Paweł Dobkowski for __Szkoła W Chmurze__
