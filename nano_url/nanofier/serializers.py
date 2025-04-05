@@ -27,5 +27,5 @@ class NanoURLSerializer(serializers.ModelSerializer):
 
         request = self.context.get("request")
         if request:
-            return request.build_absolute_uri(f"{obj.nano_id}/")
-        return f"{obj.nano_id}/"
+            return request.build_absolute_uri(f"/{obj.nano_id}/")
+        return f"/{obj.nano_id}/"
